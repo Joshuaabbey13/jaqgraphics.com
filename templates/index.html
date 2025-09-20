@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nana Banana AI Photo Editor</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nana Banana AI Photo Editor</h1>
+        <p>Upload an image and give it a prompt to edit it with the power of Nana Banana AI!</p>
+        <div class="editor">
+            <div class="controls">
+                <input type="file" id="image-input" accept="image/*">
+                <textarea id="prompt-input" placeholder="Enter a prompt..."></textarea>
+                <button id="edit-button">Edit Image</button>
+            </div>
+            <div class="result">
+                <h2>Result</h2>
+                <img id="result-image" src="" alt="Edited image will appear here">
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

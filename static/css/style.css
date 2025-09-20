@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.editor {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.result {
+    flex: 1;
+}
+
+#result-image {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
